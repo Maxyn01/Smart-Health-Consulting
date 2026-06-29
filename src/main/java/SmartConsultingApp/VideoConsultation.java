@@ -3,7 +3,7 @@ package SmartConsultingApp;
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
-import java.awt.event.*;
+
 import java.net.URI;
 import java.sql.*;
 import java.util.ArrayList;

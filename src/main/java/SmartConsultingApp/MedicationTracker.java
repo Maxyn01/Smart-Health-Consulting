@@ -2,7 +2,7 @@ package SmartConsultingApp;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
-import javax.swing.border.TitledBorder;
+
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableCellRenderer;
 import java.awt.*;
@@ -10,7 +10,6 @@ import java.sql.*;
 import java.text.SimpleDateFormat;
 
 public class MedicationTracker extends JFrame {
-    private String username;
     private int patientId;
     private JTable table;
     private DefaultTableModel model;
@@ -22,7 +21,7 @@ public class MedicationTracker extends JFrame {
     private Color accentColor = new Color(84, 160, 255);  // Soft Blue
 
     public MedicationTracker(String username) {
-        this.username = username;
+
         this.patientId = fetchPatientId(username);
 
         if (patientId == -1) {

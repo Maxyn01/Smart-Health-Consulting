@@ -24,7 +24,7 @@ public class HealthTracker extends JFrame {
     private JTextField txtSugarLevel, txtOxygenLevel, txtTemperature;
     private JTextField txtSleepTime, txtWakeTime; // New fields for sleep tracking
     private JPanel graphPanel;
-    private JButton btnSaveAll, btnGraphs, backButton; // Buttons for saving data and showing graphs
+    private JButton btnSaveAll, btnGraphs; // Buttons for saving data and showing graphs
     private JLabel patientInfoLabel, statusLabel;
     private JTabbedPane tabbedPane;
     private Color themeColor = new Color(41, 128, 185);

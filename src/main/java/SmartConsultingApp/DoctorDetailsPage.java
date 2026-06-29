@@ -17,8 +17,6 @@ public class DoctorDetailsPage extends JFrame implements ActionListener {
     private Color lightGray = new Color(240, 240, 240);
     private Font labelFont = new Font("Segoe UI", Font.PLAIN, 14);
     private Font buttonFont = new Font("Segoe UI", Font.BOLD, 14);
-    private Font headerFont = new Font("Segoe UI", Font.BOLD, 18);
-
     public DoctorDetailsPage(int s_id) {
         this.s_id = s_id;
 
