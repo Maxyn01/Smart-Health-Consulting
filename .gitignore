@@ -1,0 +1,17 @@
+# Compiled class files
+target/
+out/
+*.class
+
+# IDE specific files
+.idea/
+*.iml
+*.iws
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Application specific
+documents/
+src/main/resources/config.properties
